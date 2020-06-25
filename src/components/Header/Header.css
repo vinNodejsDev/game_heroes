@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  padding: 25px 80px;
+  font-size: 1.2em;
+  background-color: #202020;
+  color: #E8E8E8;
+}
+
+.header h3 {
+  font-size: 1.1em;
+  color: #ffbf00;
+}
+
+.header a {
+  padding-left: 35px;
+  color: antiquewhite;
+  text-decoration: none;
+}
+
+.header a:hover {
+  text-decoration: underline;
+}

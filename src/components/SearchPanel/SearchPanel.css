@@ -1,0 +1,25 @@
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 0;
+  height: 25px;
+}
+
+.search form input {
+  border: none;
+  width: 400px;
+  height: 25px;
+  margin-right: 10px;
+  border-radius: 8px;
+  border: 1px solid grey;
+  color: #696969;
+}
+
+.search form button {
+  height: 30px;
+  width: 100px;
+  border-radius: 8px;
+  border: 1px solid grey;
+  color: #484848;
+}

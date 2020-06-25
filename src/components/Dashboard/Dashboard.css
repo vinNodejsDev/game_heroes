@@ -1,0 +1,35 @@
+.dashboard{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /* margin-top: 10px; */
+  /* margin-bottom: 10px; */
+}
+
+
+.item {
+  /* flex-basis: 50%; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+  margin-top: 25px;
+  background-color: #fff;
+  border: 1px solid black;
+  opacity: 0.93;
+  border-radius: 30px;
+  padding: 3%;
+  font-size: 1.2em;
+}
+
+.item a {
+  text-decoration: none;
+  color: black;
+  font-weight: 550;
+}
+
+.item a:hover {
+  text-decoration: underline;
+  color: blue;
+  font-weight: 550;
+}

@@ -1,0 +1,28 @@
+Main Page:
+================
+<AppLayout>
+  <AppHeader/>
+  <Route path="/" component={Dashboard}/>
+  <Route render={() => <HeroPage key={this.props.id}/>}/>
+</AppLayout>
+================
+
+Dashboard
+============
+<Dashboard props={GroupsItemList}/> // по 2 списка героев в ряд
+============
+
+GroupItem
+============
+<Dashboard props={GroupsList}/> // по 2 списка героев в ряд
+============
+
+Hero
+============
+<Hero props={GroupsList}/> // по 2 списка героев в ряд
+============
+
+Hero Page
+============
+<HeroDetails props={GroupsList}/> // по 2 списка героев в ряд
+============
